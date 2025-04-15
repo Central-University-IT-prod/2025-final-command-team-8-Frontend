@@ -1,0 +1,44 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "openapi": "openapi-ts -i openapi.yaml -o client -c @hey-api/client-axios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@REDACTED:team-8/frontend.git"
+  },
+  "private": true,
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^2.0.0",
+    "@hey-api/client-axios": "^0.6.1",
+    "@internationalized/date": "^3.7.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.477.0",
+    "nuxt": "^3.15.4",
+    "reka-ui": "^2.0.2",
+    "shadcn-nuxt": "^1.0.2",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.5.13",
+    "vue-qrcode-component": "^2.1.1",
+    "vue-router": "^4.5.0",
+    "vue-tailwind-datepicker": "^1.7.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.64.8",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "nuxi": "^3.22.2",
+    "typescript": "^5.8.2"
+  }
+}
